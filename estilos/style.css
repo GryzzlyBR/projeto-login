@@ -46,7 +46,7 @@ section#login > div#imagem {
     display: block;
     background: #3E4035 url(../imagens/tela.jpg) no-repeat;
     background-size: cover;
-    background-position: left bottom;
+    background-position: top center;
     height: 200px;
 }
 
@@ -76,6 +76,26 @@ form > div.campo {
 
 div.campo > label {
     display: none;
+}
+
+div.campo > input {
+    background-color: white;
+    font-size: 1em;
+    width: calc(100% - 49px);
+    height: 90%;
+    transform: translateY(-10px);
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+div.campo > span {
+    color: #54564b;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 form > input[type="submit"] {
